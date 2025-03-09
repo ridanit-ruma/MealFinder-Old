@@ -1,0 +1,19 @@
+{
+	"name": "-meal-finder",
+	"version": "1.0.0",
+	"description": "An Express API server for fetching and serving school meal data.",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Your Name",
+	"license": "MIT",
+	"dependencies": {
+		"cron": "^3.3.1",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"moment-timezone": "^0.5.47",
+		"node-fetch": "^3.3.2"
+	}
+}
